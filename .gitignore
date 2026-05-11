@@ -1,1 +1,15 @@
-/ml-env/
+# Virtual environment
+.venv/
+
+# Poetry cache (opcional)
+.cache/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Studio Code
+.vscode/
