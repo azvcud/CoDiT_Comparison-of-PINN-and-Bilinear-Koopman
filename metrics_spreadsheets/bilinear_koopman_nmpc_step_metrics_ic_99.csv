@@ -1,0 +1,4 @@
+Métrica Global,Media,Desviación Estándar,IC_99%_Inferior,IC_99%_Superior,Margen_Error
+SSE_Global,2979.2255,53.8082,2923.9275,3034.5236,55.2981
+RMSE_Global,0.4403,0.004,0.4362,0.4445,0.0041
+NRMSE_Global,0.0734,0.0007,0.0727,0.0741,0.0007
