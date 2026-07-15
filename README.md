@@ -29,6 +29,8 @@ This work investigates two modern data-driven system identification paradigms fo
 
 Both approaches are evaluated on the classical **Quadruple Tank System**, a nonlinear and strongly coupled MIMO benchmark widely used in process control research.
 
+Hyperparameters for both the Bilinear Koopman and PINN models were selected using the Optuna optimization framework.
+
 The identified models are embedded within a **Nonlinear Model Predictive Control (NMPC)** framework implemented with **CasADi**, allowing a rigorous comparison in terms of:
 
 - Identification accuracy
@@ -127,6 +129,7 @@ The repository was developed using:
 - Matplotlib 3.7.3
 - Seaborn 0.13.2
 - SALib 1.5.1
+- Optuna 4.9.0
 - Scikit-Optimize 0.10.2
 
 All package versions are pinned in the provided Poetry configuration files to guarantee reproducibility of the reported experiments.

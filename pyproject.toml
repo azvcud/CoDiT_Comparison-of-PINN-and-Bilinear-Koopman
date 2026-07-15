@@ -34,6 +34,7 @@ torch = { version = "1.13.1", source = "pytorch" }
 torchvision = { version = "0.14.1", source = "pytorch" }
 torchaudio = { version = "0.13.1", source = "pytorch" }
 scikit-optimize = "^0.10.2"
+optuna = "^4.9.0"
 
 [[tool.poetry.source]]
 name = "pytorch"
